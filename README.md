@@ -2,7 +2,7 @@
 
 A simple tool to trigger a build in GitLab with an option to poll the build status until done.
 
-# Examples
+## Examples
 
 ### Trigger a tagged build
 
@@ -17,6 +17,11 @@ You can get your GitLab trigger token from Projects - Settings - Trigger option.
 ```
 go-gitlab-trigger-build -ref develop -url http://ip-addr/api/v3/projects/1/trigger/builds -token [trigger-token] -wait=false
 ```
+
+## Notes
+
+* Tested only on a local network GitLab installation.
+* Not tested with https://gitlab.com.
 
 # License
 
