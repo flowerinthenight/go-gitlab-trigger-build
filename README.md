@@ -1,4 +1,4 @@
-# go-gitlab-trigger-build
+# Overview
 
 A simple tool to trigger a build in GitLab with an option to poll the build status until done.
 
